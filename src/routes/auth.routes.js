@@ -12,7 +12,10 @@ router.post("/register", authController.userRegisterController)
 /* register api end */
 
 
-
+/* login api start */
+// ** post /api/auth/login **
+router.post("/login", authController.userLoginController)
+/* login api end */
 
 
 module.exports = router
